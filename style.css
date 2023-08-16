@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    padding: 0px 300px 0px 300px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #16151a;
+    width: 100%;
+    height: 1200px;
+}
+
+.navbar ul {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: ;
+    overflow: hidden;
+    background-color: #4b4a4a;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: black;
+    background-color: yellow;
+}
+
+
+
+
+
+
+.float_left{
+    float: left;
+    width: 30%;
+    
+}
+.float_left >img{
+    padding: 30px 0px 0px 0px;
+    width: 400px;
+    height: 700px;
+   
+}
+
+.float_right{
+    padding: 30px 0px 0px 40px;
+    padding: ;
+    width: 70%;
+    float: right;
+}
+
+.cherniy{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.black{
+    color: rgb(143, 139, 139);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+section{
+    float: left;
+    height: 700px;
+    padding-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.photo{
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    height: 130px;
+    width: 80px;
+}
+
+
+.rejisser{
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .kino{
+    width: 1528px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px; 
+  }
+  .kino img{
+    width: 234px;
+    height: 336px;
+    border :0 solid #252424;
+    border-radius: 18px
+  }
+  
+  .blok h2{
+    color: #fff;
+  }
+  .blok p{
+    color: rgb(18, 116, 18);
+  }
+  .p{
+    color: #fff;
+    font-size: 48px;
+    font-family: "SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; 
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+  
+.icons img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  
+  .l{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 50px;
+    height: 50px;
+    border:0;
+    background-color: #FFFFFF0D;
+    border-radius: 10px;
+  }
+  
+  .icons{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+
+
+
+
+
+  input:hover{
+    background-color: #524c4c8e;
+  }
+  .loc{
+    width: 234px;
+    height: 336px;
+    border :0 solid #252424;
+    position: relative;
+    
+  }
+  .loc:hover::before{
+    content:url(play-circle-regular-24.png);
+    content:border 0;
+    content:;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loc:hover{
+    transition: ease-in 300ms;
+    transform: scale(1.1);
+  }
+  
+  
+
+  
