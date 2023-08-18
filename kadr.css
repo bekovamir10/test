@@ -41,3 +41,21 @@ li a:hover {
     color: black;
     background-color: yellow;
 }
+
+
+
+
+
+
+
+.img {
+   margin-left: -100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.img img{
+    width: 400px;
+    height: 300px;
+ 
+}
